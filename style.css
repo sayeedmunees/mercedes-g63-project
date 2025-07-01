@@ -9,6 +9,11 @@ p, a, h4{
     font-family: "Montserrat", sans-serif;
 }
 
+a:hover{
+    text-underline-offset: 10px;
+    text-decoration: underline;
+}
+
 nav{
     display: flex;
     background-color: black;
@@ -81,13 +86,6 @@ nav a{
     justify-content: center;
 }
 
-/* #home-page-2 img{
-    height: 100%;
-    width: auto;
-    justify-content: end;
-} */
-
-
 footer{
     display: flex;
     background-color: black;
@@ -122,7 +120,6 @@ footer{
     display: flex;
     flex-direction: column;
     color: rgba(255, 255, 255, 0.757);
-    justify-content: space-between;
     align-content: end;
     width: 20vw;
 }
@@ -130,4 +127,10 @@ footer{
 .footer-links-holder a{
     color: rgba(255, 255, 255, 0.565);
     text-decoration: none;
+    margin-top: 2%;
+}
+
+.footer-links-holder a:hover{
+    text-underline-offset: 5px;
+    text-decoration: underline;
 }
