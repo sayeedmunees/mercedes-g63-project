@@ -5,7 +5,7 @@
     font-family: "Libre Caslon Display", serif;
 }
 
-p, a{
+p, a, h4{
     font-family: "Montserrat", sans-serif;
 }
 
@@ -76,6 +76,17 @@ nav a{
     width: 120%;
 }
 
+#home-page-2 .home-image{
+    align-items: center;
+    justify-content: center;
+}
+
+/* #home-page-2 img{
+    height: 100%;
+    width: auto;
+    justify-content: end;
+} */
+
 
 footer{
     display: flex;
@@ -86,9 +97,37 @@ footer{
 }
 
 .footer-logo{
-    width: 20vw;
+    width: 30vw;
+}
+
+.footer-logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-logo p{
+    font-size: 0.9rem;
+    margin-top: 4%;
+    margin-left: 5%;
+    color: rgba(255, 255, 255, 0.558);
 }
 
 .footer-links{
-    
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+}
+
+.footer-links-holder{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.757);
+    justify-content: space-between;
+    align-content: end;
+    width: 20vw;
+}
+
+.footer-links-holder a{
+    color: rgba(255, 255, 255, 0.565);
+    text-decoration: none;
 }
