@@ -27,5 +27,5 @@ The source code is hosted on GitHub: [https://github.com/sayeedmunees/mercedes-g
 Feel free to fork this repository and submit pull requests. Suggestions for improvements, especially responsiveness, are welcome!
 
 ## License
-This project is open-source. For more details, refer to the LICENSE file (if included).
+This project is open-source.
 
