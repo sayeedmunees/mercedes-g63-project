@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Libre Caslon Display", serif;
+}
+
+p, a{
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.nav-bar-logo{
+    display: flex;
+    height: fit-content;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar-links{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.nav-bar-logo h2{
+    font-size: 2rem;
+    margin-bottom: -50px;
+}
+
+.home-page{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    width: 40vw; 
+    height: 25vw;
+    justify-content: end;
+}
+
+.home-text h1{
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+.home-image{
+    display: flex;
+    width: 40vw;
+    height: 40vw;
+    overflow: hidden;
+    align-items: end;
+    border-radius: 20px;
+}
+
+.home-image img{
+    width: 120%;
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 20vw;
+}
+
+.footer-links{
+    
+}
