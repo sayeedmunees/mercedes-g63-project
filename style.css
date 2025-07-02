@@ -9,11 +9,13 @@ p, a, h4{
     font-family: "Montserrat", sans-serif;
 }
 
-.nav-bar-logo a:hover{
-    text-decoration: none;
+.nav-bar a:hover{
+    cursor:default;
+
 }
 
-a:hover{
+.nav-bar-links a:hover{
+    cursor: pointer;
     text-underline-offset: 10px;
     text-decoration: underline;
 }
