@@ -9,6 +9,10 @@ p, a, h4{
     font-family: "Montserrat", sans-serif;
 }
 
+.nav-bar-logo a:hover{
+    text-decoration: none;
+}
+
 a:hover{
     text-underline-offset: 10px;
     text-decoration: underline;
